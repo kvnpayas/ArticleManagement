@@ -13,17 +13,17 @@
         <form action="/articles" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="block">
-                <input type="file" name="image" class="block shadow-5xl mb-10 p-2 w-80 italic placeholder-gray-400">
+                <input type="file" name="image" class="block shadow-5xl mb-10 p-2 w-80 italic placeholder-gray-400 border-2 border-black-600">
                 <input 
                 type="text"
-                class="block shadow-5xl mb-10 p-2 w-80 italic placeholder-gray-400"
+                class="block shadow-5xl mb-10 p-2 w-80 italic placeholder-gray-400 border-2 border-black-600"
                 name="title"
-                placeholder="Article Title..."
+                placeholder="Article Title... "
                 >
 
                 <textarea 
                 type="text"
-                class="block shadow-5xl mb-10 p-2 w-80 h-80 italic placeholder-gray-400"
+                class="block shadow-5xl mb-10 p-2 w-80 h-80 italic placeholder-gray-400 border-2 border-black-600"
                 name="article"
                 placeholder="Write Article..."
                 ></textarea>

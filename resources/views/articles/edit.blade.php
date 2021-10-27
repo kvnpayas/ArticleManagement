@@ -17,14 +17,14 @@
                
                 <input 
                 type="text"
-                class="block shadow-5xl mb-10 p-2 w-80 italic placeholder-gray-400"
+                class="block shadow-5xl mb-10 p-2 w-80 italic placeholder-gray-400 border-2 border-black-600"
                 name="title"
                 value="{{ $article->title }}"
                 >
 
                 <textarea 
                 type="text"
-                class="block shadow-5xl mb-10 p-2 w-80 h-80 italic placeholder-gray-400"
+                class="block shadow-5xl mb-10 p-2 w-80 h-80 italic placeholder-gray-400 border-2 border-black-600"
                 name="article"
                 value=""
                 >{{ $article->article }}</textarea>
